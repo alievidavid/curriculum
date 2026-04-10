@@ -9,25 +9,29 @@
                 height: 100vh;
                 font-family: 'Times New Roman';
                 background-color: bisque;
+                margin: 5px;
+                border: 7px solid #000;
+                min-height: 100vh;
+                box-sizing: border-box;
+                
             }
+
+            .minha-caixa {
+            
+  width: 300px;                /* Largura da caixa */
+  padding: 20px;               /* Espaço interno */
+  border: 2px solid #333;      /* Borda: espessura, estilo, cor */
+  border-radius: 10px;         /* Cantos arredondados */
+  background-color: #f4f4f4;   /* Cor de fundo */
+  margin: 40px left;          /* Centralizar na página */
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.2); /* Sombra opcional */
+}
 
             div {
 
                 display: flex;
                 flex-direction: column;
-                width: 1800px;
-            }
-
-            h1 {
-                text-align: left ;
-            }
-
-            h2 {
-                text-align: left;
-            }
-            
-            h3 {
-
+                width: 2000px;
                 text-align: left;
             }
 
@@ -35,6 +39,11 @@
 </head>
 
 <body>
+
+    <div class="minha-caixa">
+  <h2>Título da Caixa</h2>
+  <p>Este é o conteúdo dentro da caixa.</p>
+</div>
 
     <div>
 
